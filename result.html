@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            height: 100vh;
+
+            .main {
+                background-color: black;
+                height: 500px;
+                width: 500px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: #fff;
+                border-radius: 50%;
+                a{
+                    margin: 10px;
+                    color: pink;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Quiz Result</h1>
+        <div id="result"></div>
+        <a href="./index.html">Take Quiz Again</a>
+    </div>
+    <script>
+        // Retrieve the score from localStorage
+        const score = localStorage.getItem('quizScore');
+        const totalQuestions = localStorage.getItem('totalQuestions');
+
+        // Display the result
+        const resultContainer = document.getElementById('result');
+        resultContainer.innerHTML = `You scored ${score} out of ${totalQuestions}`;
+    </script>
+</body>
+
+</html>

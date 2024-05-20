@@ -1,0 +1,52 @@
+{
+    "question": [
+        {
+            "question": "What is the capital of AP?",
+            "option1": "Visakhapatnam",
+            "option2": "Vijayawada",
+            "option3": "Nellore",
+            "option4": "No Capital",
+            "ans": "Visakhapatnam"
+        },
+        {
+            "question": "What is the capital of UP?",
+            "option1": "Lucknow",
+            "option2": "Kanpur",
+            "option3": "Agra",
+            "option4": "No Capital",
+            "ans": "Lucknow"
+        },
+        {
+            "question": "What is the capital of Maharashtra?",
+            "option1": "Mumbai",
+            "option2": "Pune",
+            "option3": "Nagpur",
+            "option4": "Thane",
+            "ans": "Mumbai"
+        },
+        {
+            "question": "What is the capital of Tamil Nadu?",
+            "option1": "Chennai",
+            "option2": "Madurai",
+            "option3": "Coimbatore",
+            "option4": "Salem",
+            "ans": "Chennai"
+        },
+        {
+            "question": "What is the capital of Karnataka?",
+            "option1": "Bangalore",
+            "option2": "Mysore",
+            "option3": "Mangalore",
+            "option4": "Hubli",
+            "ans": "Bangalore"
+        },
+        {
+            "question": "What is the capital of Gujarat?",
+            "option1": "Ahmedabad",
+            "option2": "Surat",
+            "option3": "Vadodara",
+            "option4": "Gandhinagar",
+            "ans": "Gandhinagar"
+        }
+    ]
+}
